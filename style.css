@@ -1,0 +1,246 @@
+body{
+    background-color: rgb(46 46 46);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+h6{
+    font-size: 15px;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    
+}
+
+p{
+    color: white;
+    margin-left:15px ;
+    cursor: pointer;
+}
+h5{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#mainLogo{
+    height: 50px;
+    width: 100px;
+}
+
+#sidePanel{
+    width: 15%;
+}
+.navItems{
+    width : 100%;
+    display: flex;
+    gap: 30px;
+    padding: 10px; 
+}
+.navItems:hover{
+    background-color: aqua;
+}
+i{
+    font-size: 15px;
+    color: white;
+    align-self: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#logopics{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+#boxtext{
+    width : 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+#mainView{
+    height: 500px;
+    width: 85%;
+    margin-top: 20px;
+    
+}
+
+input{
+    background-color: black;
+    color: grey;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#imageicon{
+    height: 29px;
+    width: 3%;
+}
+
+.profileSettings {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.myimage{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#inputsearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBar {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    /* border-radius: 15px; */
+    padding: 7px 20px;
+    outline: none;
+}
+#recourd{
+    height: 29px;
+    width: 3%;
+    border-radius:20px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#navbartext{
+    margin-top: 15px;
+    border-top: 1px solid gray;
+   border-bottom: 1px solid grey;
+   padding: 8px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+#boxes{
+    border: 1px solid grey;
+    width: 17%;   
+    color: white;
+    border-radius: 15px;
+   text-align: center;
+   padding: 6px;
+}
+#boxes:hover{
+    background-color:aqua ;
+    cursor: pointer;
+}
+#boxes1{
+    align-self: center;
+    border: 1px solid grey;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+    width: 7%;
+    text-align: center;
+}
+#boxes1:hover{
+    background-color:aqua ;
+    cursor: pointer;
+}
+#card{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+#cards{
+    width: 24%;
+    height: 350px;
+    
+}
+#picscard{
+    width: 100%;
+    height: 200px;
+}
+#cardtext{
+    display: flex;
+
+}
+
+#cardicon{
+    width: 12%;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#heading{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+#paragraphtext{
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgb(168, 149, 149);
+}
+
+#card2{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+#cards2{
+    width: 24%;
+    height: 350px;
+}
+#card3{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cards3{
+    width: 24%;
+    height: 350px;
+}
+
+#card4{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+#cards4{
+    width: 24%;
+    height: 350px;
+}
+
+#card5{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards5{
+    width: 24%;
+    height: 350px;
+ 
+}
+
+#card6{
+    margin-top:15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards6{
+    width: 24%;
+    height: 350px;
+}
+
