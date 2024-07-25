@@ -85,14 +85,20 @@ i{
 }
 
 input{
+
+
    background-color: white;
     border: 1px solid gray;
-    width: 60%;
+    width: 70%;
     height: 40px;
     /* padding-top: 5px; */
     padding-bottom: 5px;
     font-size: 17px;
-    border-radius: 25px;
+    border-radius: 20px 0 0 20px;
+
+}
+input:focus{
+    border: 1px solid blue;
 }
 #imageicon{
     height: 40px;
@@ -128,7 +134,6 @@ input{
 }
 
 .searchBar input {
-    /* border-radius: 15px; */
     padding: 7px 20px;
     outline: none;
 }
