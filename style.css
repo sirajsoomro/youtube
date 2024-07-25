@@ -15,6 +15,7 @@ h6{
     margin: 0%;
     padding: 0%;
     cursor: pointer;
+    color: rgb(73, 70, 70);
 }
 
 p{
@@ -23,7 +24,6 @@ p{
     cursor: pointer;
 }
 h5{
-   
     font-size: 15px;
     cursor: pointer;
 }
